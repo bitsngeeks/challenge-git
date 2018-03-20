@@ -93,7 +93,6 @@ tape('should get echo', function (t) {
     t.deepEqual(res.body, {one: '1', two: '2'}, 'values should match')
     t.end()
   })
-
 })
 
 tape('should get reverse', function (t) {
